@@ -4,9 +4,9 @@ public class PropertyFeeRecord {
     //物业费记录
     private String residentID;
     private String residenceID;
-    private String propertyFeeID;
-    private String paymentTime;
-    private double propertyFee;
+    private String paymentID;
+    private String startTime;
+    private double payment;
 
     public String getResidentID() {
         return residentID;
@@ -24,27 +24,27 @@ public class PropertyFeeRecord {
         this.residenceID = residenceID;
     }
 
-    public String getPropertyFeeID() {
-        return propertyFeeID;
+    public String getPaymentID() {
+        return paymentID;
     }
 
-    public void setPropertyFeeID(String propertyFeeID) {
-        this.propertyFeeID = propertyFeeID;
+    public void setPaymentID(String paymentID) {
+        this.paymentID = paymentID;
     }
 
-    public String getPaymentTime() {
-        return paymentTime;
+    public String getStartTime() {
+        return startTime;
     }
 
-    public void setPaymentTime(String paymentTime) {
-        this.paymentTime = paymentTime;
+    public void setStartTime(String startTime) {
+        this.startTime = startTime;
     }
 
-    public double getPropertyFee() {
-        return propertyFee;
+    public double getPayment() {
+        return payment;
     }
 
-    public void setPropertyFee(double propertyFee) {
-        this.propertyFee = propertyFee;
+    public void setPayment(double payment) {
+        this.payment = payment;
     }
 }

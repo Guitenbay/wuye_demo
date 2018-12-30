@@ -6,12 +6,12 @@ public class PropertyRecord {
     private String residenceID;
     private String communityID;
     private String residentName;
-    private String residentPhoneNumber;
+    private String phoneNumber;
     private String communityName;
     private String issueDate;
-    private String floor;
-    private String unit;
-    private String room;
+    private String floorNum;
+    private String unitNum;
+    private String roomNum;
     private double area;
     private double fee;
 
@@ -48,12 +48,12 @@ public class PropertyRecord {
         this.residentName = residentName;
     }
 
-    public String getResidentPhoneNumber() {
-        return residentPhoneNumber;
+    public String getPhoneNumber() {
+        return phoneNumber;
     }
 
-    public void setResidentPhoneNumber(String residentPhoneNumber) {
-        this.residentPhoneNumber = residentPhoneNumber;
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
     }
 
     public String getCommunityName() {
@@ -72,28 +72,28 @@ public class PropertyRecord {
         this.issueDate = issueDate;
     }
 
-    public String getFloor() {
-        return floor;
+    public String getFloorNum() {
+        return floorNum;
     }
 
-    public void setFloor(String floor) {
-        this.floor = floor;
+    public void setFloorNum(String floorNum) {
+        this.floorNum = floorNum;
     }
 
-    public String getUnit() {
-        return unit;
+    public String getUnitNum() {
+        return unitNum;
     }
 
-    public void setUnit(String unit) {
-        this.unit = unit;
+    public void setUnitNum(String unitNum) {
+        this.unitNum = unitNum;
     }
 
-    public String getRoom() {
-        return room;
+    public String getRoomNum() {
+        return roomNum;
     }
 
-    public void setRoom(String room) {
-        this.room = room;
+    public void setRoomNum(String roomNum) {
+        this.roomNum = roomNum;
     }
 
     public double getArea() {
